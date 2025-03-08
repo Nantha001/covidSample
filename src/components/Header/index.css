@@ -1,0 +1,103 @@
+@media screen and (max-width: 768px) {
+  .desktop-header-container {
+    display: none;
+  }
+  .mobile-view-header-container {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e1e30;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-view-logo-img {
+    height: auto;
+    width: auto;
+  }
+  .mobile-view-header-list-container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    list-style-type: none;
+  }
+  .mobile-view-header-menu-btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  .mobile-view-menu-option-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    background-color: #161625;
+  }
+  .mobile-view-menu-option-btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+  .mobile-view-option-title {
+    color: #94a3b8;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .mobile-view-menu-option-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+  }
+  .mobile-view-menu-option-cancel-btn {
+    font-size: 20px;
+    color: #94a3b8;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-view-header-container {
+    display: none;
+  }
+  .mobile-view-menu-option-container {
+    display: none;
+  }
+
+  .desktop-header-container {
+    background-color: #1e1e30;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .desktop-header-list-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .desktop-header-img {
+    width: auto;
+    height: auto;
+  }
+  .desktop-header-menu-option-container {
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+  }
+  .desktop-header-menu-title {
+    color: #f8fafc;
+    font-family: Roboto;
+    font-size: 16px;
+  }
+}
+.link-item {
+  text-decoration: none;
+  outline: none;
+}

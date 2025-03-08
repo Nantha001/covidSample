@@ -1,0 +1,168 @@
+.bg-home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #161625;
+}
+.loading-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 80vh;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.covid-content-main-container {
+  width: 100%;
+
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.state-info-table-container {
+  width: 90%;
+  border: 1px solid #475569;
+
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #1e1e30;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow-x: auto;
+}
+.table-header-row-list-container,
+.table-body-row-list-container {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 10px;
+  padding: 20px;
+  align-items: center;
+  min-width: 1000px;
+}
+
+.border {
+  border: 1px solid #475569;
+}
+
+.table-header-row-btn-container {
+  display: flex;
+  min-width: 150px;
+  max-width: 145px;
+  font-family: Roboto;
+  color: #f8fafc;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+
+  gap: 10px;
+}
+
+.table-header-row-text,
+.table-body-row-text {
+  font-family: Roboto;
+
+  color: #f8fafc;
+  font-size: 16px;
+  max-width: 145px;
+
+  min-width: 150px;
+
+  font-weight: 500;
+}
+
+.table-header-row-text {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.asc-icon-btn,
+.desc-icon-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.confirmed {
+  color: #ff073a;
+}
+.active {
+  color: #007bff;
+}
+.recovered {
+  color: #28a745;
+}
+.deceased {
+  color: #6c757d;
+}
+.population {
+  color: #94a3b8;
+}
+.search-container {
+  width: 40%;
+  background-color: #2f2f43;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.search-icon {
+  font-size: 20px;
+}
+.search-input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 80%;
+
+  background-color: transparent;
+  color: #64748b;
+}
+.search-list-container {
+  width: 40%;
+  list-style-type: none;
+}
+.search-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.search-name {
+  color: #64748b;
+  font-size: 16px;
+}
+.state-code-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #1cd4d429;
+  width: 80px;
+  height: 30px;
+}
+.search-code {
+  color: #facc15;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+.search-arrow-icon {
+  font-size: 16px;
+  color: #facc15;
+}

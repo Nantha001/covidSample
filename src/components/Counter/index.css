@@ -1,0 +1,65 @@
+.covid-content-counter-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.covid-content-counter-card {
+  height: 142px;
+  width: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.confirmed-text {
+  color: #ff073a;
+}
+.confirmed-icon {
+  height: 24px;
+  width: 24px;
+  margin: 0.1cm;
+}
+.confirmed-count {
+  color: #ff073a;
+  font-size: 22px;
+}
+.active-text {
+  color: #007bff;
+}
+.active-icon {
+  height: 24px;
+  width: 24px;
+  margin: 0.1cm;
+}
+.active-count {
+  color: #007bff;
+  font-size: 22px;
+}
+.recovered-text {
+  color: #28a745;
+}
+.recovered-icon {
+  height: 24px;
+  width: 24px;
+  margin: 0.1cm;
+}
+.recovered-count {
+  color: #28a745;
+  font-size: 22px;
+}
+.deceased-text {
+  color: #6c757d;
+}
+.deceased-icon {
+  height: 24px;
+  width: 24px;
+  margin: 0.1cm;
+}
+.deceased-count {
+  color: #6c757d;
+  font-size: 22px;
+}
